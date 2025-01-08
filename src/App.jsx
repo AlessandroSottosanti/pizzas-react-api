@@ -27,12 +27,6 @@ function App() {
                     <img src={`${apiUrl}/${curItem.image}`} alt="" />
                     <div className="card-body">
                       <h4>{curItem.name}</h4>
-                      <button
-                        onClick={() => cancella(curItem.id)}
-                        className="btn btn-danger"
-                      >
-                        Cancella
-                      </button>
                     </div>
                   </div>
                 </div>
